@@ -8,13 +8,12 @@
 #include "rust_tour/windows.typ"
 #include "rust_tour/code_editor.typ"
 #include "rust_tour/projects_creation.typ"
-== A Friend in Need is a Friend Indeed
+#include "rust_tour/rust_error_handler.typ"
 
-= Rust Data Types
-== Scalar Types
-== Compound Types
-== Collection Types (from std::collections)
-== Never Type
+
+#include "rust_lang/1_rust_data_types.typ"
+
+
 
 = Rust Functions
 == Introduction
