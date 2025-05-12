@@ -5,36 +5,22 @@
 #outline()
 
 #include "rust_tour/linux.typ"
-#include "rust_tour/windows.typ"
-#include "rust_tour/code_editor.typ"
-#include "rust_tour/projects_creation.typ"
-#include "rust_tour/rust_error_handler.typ"
 
+#include "rust_tour/windows.typ"
+
+#include "rust_tour/code_editor.typ"
+
+#include "rust_tour/projects_creation.typ"
+
+#include "rust_tour/rust_error_handler.typ"
 
 #include "rust_lang/1_rust_data_types.typ"
 
+#include "rust_lang/2_copy_and_non_copy.typ"
 
+#include "rust_lang/3_ownership_and_borrow.typ"
 
-= Rust Functions
-== Introduction
-== Defining Functions
-== Parameters and Return Types
-== Statements vs. Expressions
-== Example
-== Function Documentation
+#include "rust_lang/4_functions.typ"
 
-= Rust Structs
-== What is a Struct?
-== Creating Instances
-== Tuple Structs
-== Unit-Like Structs
-== Implementing Methods
+#include "rust_lang/5_structs.typ"
 
-= Rust Ownership & Borrowing Rules
-== Introduction
-== Ownership Basics
-=== Example
-== Borrowing and References
-=== Example
-== Borrowing Rules
-== Slices - Borrowing Parts of Data
