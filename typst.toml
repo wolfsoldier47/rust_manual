@@ -2,7 +2,7 @@
 
 [package]
 # The package's identifier in its namespace.
-name = "bevy_rust"
+name = "rust Guide"
 # The package's version as a full major-minor-patch triple. Package versioning should follow SemVer.
 version = "0.1.0"
 # The path to the main Typst file that is evaluated when the package is imported.
@@ -11,7 +11,7 @@ entrypoint = "main.typ"
 # A list of the package's authors. Each author can provide an email address, homepage,
 # or GitHub handle in angle brackets. The latter must start with an @ character, and 
 # URLs must start with http:// or https://.
-authors = [""]
+authors = ["Nick","Nixon]
 
 # The package's license. Must contain a valid SPDX-2 expression describing one or 
 # multiple OSI-approved licenses.
@@ -19,7 +19,7 @@ license = ""
 
 # A short description of the package. Double-check this for grammar and spelling mistakes 
 # as it will appear in the package list.
-description = "An example Typst document project."
+description = "Learn Rust with this guide"
 
 # Optional: A link to the package's web presence, where there could be more details, an issue tracker, 
 # or something else. Will be linked to from the package list.
