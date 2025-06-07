@@ -3,6 +3,17 @@
 Simple installation guide with rust basics 
 
 
+Make sure typst is installed
+
+```
+
+git clone https://github.com/typst/typst
+cd typst
+cargo build --release
+
+cp target/release/typst /usr/bin/typst
+```
+
 
 Supported Operation:
 
@@ -17,3 +28,12 @@ To make a CheatSheet pdf only:
 make cheatsheet
 ```
 
+to clean:
+```
+make clean
+```
+
+realtime compiling:
+```
+make watch
+```
