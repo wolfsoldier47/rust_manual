@@ -16,7 +16,7 @@
 )
 
 #let lr-blocks = state("lr-blocks", 0)
-#let block-number() = context text(0.8em, numbering("1", lr-blocks.get()))
+#let block-number() = context text(0.8em, "")
 
 #let lr-columns(a, b) = {
   lr-blocks.update(x => x + 1)
