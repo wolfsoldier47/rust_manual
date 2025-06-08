@@ -16,7 +16,7 @@ SRC_CHEATSHEET = cheatsheet.typ
 
 OUT_CHEATSHEET = cheatsheet.pdf
 
-.PHONY: all clean watch
+.PHONY: all clean watch cheatsheet
 
 all: $(OUT)
 
@@ -29,5 +29,7 @@ watch:
 clean:
 	rm -f $(OUT)
 
-cheatsheet:
+cheatsheet: $(OUT_CHEATSHEET)
+
+$(OUT_CHEATSHEET): $(SRC_CHEATSHEET)
 	$(TYPST) compile $(SRC_CHEATSHEET) $(OUT_CHEATSHEET)
