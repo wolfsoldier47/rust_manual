@@ -33,8 +33,7 @@ let book2 = Book {
     ..book1
 };
 ```
-This copies all remaining fields from book1. book1 will no longer be valid if any fields that don’t implement Copy (like String) are moved. Which means if we try to access book1.author it will give an error as we already borrowed via “..book1” . However book1.title will still be accessible because we never borrowed it.
-
+This copies all remaining fields from book1. book1 will no longer be valid if any fields that don’t implement Copy (like String) are moved. Which means if we try to access book1.author it will give an error as we already moved via “..book1” . However book1.title will still be accessible because we never moved it.
 
 Accessing struct fields
 
